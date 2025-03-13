@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "stackblitz-starters-hc72gkmv",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
