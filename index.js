@@ -46,10 +46,7 @@ app.put('/books/:id', (req, res) => {
   if (year) book.year = year;
   if (copies) book.copies = copies;
 
-  res.status(200).json({
-    title: book.title,
-    copies: book.copies
-  });
+  res.status(200).json(book);
 });
 
 app.delete('/books/:id', (req, res) => {
